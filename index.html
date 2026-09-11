@@ -1,0 +1,213 @@
+<meta charset="utf-8">
+<title>Maa Hai Naa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500;1,6..72,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<nav id="nav" class="on-photo">
+  <div class="bar">
+    <ul class="navlinks left"><li><a href="#story">Our Story</a></li><li><a href="#hair">Hair Care</a></li></ul>
+    <a class="lockup" href="#top"><span class="logo">Maa Hai Naa</span><span class="tagline">Mother Is Here</span></a>
+    <ul class="navlinks right"><li><a href="#skin">Skin Care</a></li><li><a href="#mother">Mother Care</a></li><li><a href="#contact">Contact</a></li></ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#hair">Hair Care</a></li>
+      <li><a href="#skin">Skin Care</a></li>
+      <li><a href="#mother">Mother Care</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="top" class="hero">
+  <div class="wrap hero-inner">
+    <span class="eyebrow hero-in" data-in="1">Maa Hai Naa &mdash; Mother Is Here</span>
+    <h1 class="hero-title"><span class="word-wrap"><span class="word" data-in="2">Because</span> <span class="word" data-in="2">Maa</span></span><br><span class="word-wrap"><span class="word" data-in="3">Knows</span> <span class="word" data-in="3">Best.</span></span></h1>
+    <p class="hero-in" data-in="4">Hair oils, soaps, and mother-care mixes built the way she always made them &mdash; from a kitchen, not a lab. Rooted in care, made for you.</p>
+    <div class="hero-cta hero-in" data-in="5">
+      <a class="btn" href="#mother">Shop Mother Care</a>
+      <a class="btn btn-ghost" href="#story">Our Story</a>
+    </div>
+  </div>
+</div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<section class="stages">
+  <div class="wrap">
+    <div class="stages-head gsap-reveal">
+      <h2>Every Stage, Held With Care</h2>
+      <span class="hint">Scroll to see more &rarr;</span>
+    </div>
+    <div class="stage-scroll gsap-reveal">
+      <div class="stage-card">
+        <div class="photo" style="background-image:url('images/about2.jpg');"></div>
+        <div class="stage-body">
+          <span class="stage-kicker">Morning Ritual</span>
+          <h3>The First Spoon</h3>
+          <p>Before anything else, a spoon of something warm &mdash; the same porridge her own mother once made.</p>
+          <a href="#mother">See Maa Poshan Porridge &rarr;</a>
+        </div>
+      </div>
+      <div class="stage-card">
+        <div class="photo" style="background-image:url('images/ritual3.jpg');"></div>
+        <div class="stage-body">
+          <span class="stage-kicker">Welcoming Her</span>
+          <h3>A Laddu, Before Anything Else</h3>
+          <p>The first thing offered to a new mother &mdash; not advice, just something sweet and warm in her hand.</p>
+          <a href="#mother">See Maa Shakti Laddu &rarr;</a>
+        </div>
+      </div>
+      <div class="stage-card">
+        <div class="photo" style="background-image:url('images/ritual1.jpg');"></div>
+        <div class="stage-body">
+          <span class="stage-kicker">A Quiet Pause</span>
+          <h3>A Warm Cup, No Questions Asked</h3>
+          <p>Passed over quietly, the way it always has been &mdash; for balance, on the harder days.</p>
+          <a href="#mother">See Maa Santulan Mix &rarr;</a>
+        </div>
+      </div>
+      <div class="stage-card">
+        <div class="photo" style="background-image:url('images/ritual2.jpg');"></div>
+        <div class="stage-body">
+          <span class="stage-kicker">Before Bed</span>
+          <h3>One Warm Glass</h3>
+          <p>A small routine, kept up long after anyone remembers why it started &mdash; because it works.</p>
+          <a href="#mother">See Maa Ka Doodh Powder &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap">
+    <div class="story-top">
+      <div class="story-copy gsap-reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2>A promise, before it was a brand.</h2>
+        <p>&ldquo;Maa hai naa&rdquo; is what she says when things feel like too much. It means, simply, mother is here. Not a slogan &mdash; a promise she's made a hundred times, in a hundred small ways.</p>
+        <p>This brand began the way most home remedies do: in a kitchen, with whatever was already on the shelf, and a mother who knew exactly what to do with it. Oil warmed between her palms before it touched your scalp. Powders mixed fresh, not bought ready-made. A halwa put together the night a baby arrived, because someone remembered it needed making.</p>
+      </div>
+      <div class="story-media gsap-reveal">
+        <div class="parallax-wrap"><img data-parallax src="images/about1.jpg" alt="A grandmother sharing a laddu with her daughter, who holds her newborn"></div>
+        <div class="frame-tag">rooted in care, made for you</div>
+      </div>
+    </div>
+
+    <div class="lineage gsap-reveal">
+      <div class="lineage-step" data-n="1"><h3>What She Knew</h3><p>The oils, powders, and mixes lived in her hands and her memory, made fresh each time, never quite the same way twice.</p></div>
+      <div class="lineage-step" data-n="2"><h3>What She Passed On</h3><p>Recipes taught by doing, not writing down &mdash; watched over a shoulder, corrected by touch and smell.</p></div>
+      <div class="lineage-step" data-n="3"><h3>What We Made Simple</h3><p>The same knowledge, put into a jar you can reach for on an ordinary day &mdash; nothing added that wasn't already there.</p></div>
+    </div>
+
+    <div class="pull gsap-reveal">
+      <blockquote>There is no version of care older than a mother's hands. We just made it easier to reach.</blockquote>
+      <cite>Maa Hai Naa</cite>
+    </div>
+  </div>
+</section>
+
+<svg class="curve into-alt" viewBox="0 0 1200 80" preserveAspectRatio="none"><path d="M0,0 C300,80 900,80 1200,0 L1200,80 L0,80 Z"></path></svg>
+
+<section id="hair" class="alt">
+  <div class="wrap">
+    <div class="section-head gsap-reveal">
+      <span class="eyebrow">Shop &mdash; Hair Care</span>
+      <h2>For roots that remember.</h2>
+      <p>Two staples, built the way hair care used to be done: warmed oil, and a powder pack mixed fresh at home.</p>
+    </div>
+    <div class="arch-grid cols-2">
+      <div class="arch-card gsap-reveal product-trigger" data-pid="root-revive-oil" role="button" tabindex="0">
+        <div class="arch-frame" style="--frame-bg:var(--green); --frame-ink:#F6F1E4;"><div class="texture"></div>
+          <div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M32 6c-3 10-16 16-16 30a16 16 0 0 0 32 0c0-14-13-20-16-30Z"/><path d="M32 20v34"/><path d="M24 30c3 3 5 3 8 0M40 30c-3 3-5 3-8 0"/></svg></div>
+          <span class="swatch-name">Root Revive</span>
+        </div>
+        <div class="cap"><span class="kicker">Hair Oil</span><h3>Root Revive Oil</h3><p>Coconut, curry leaf, and black seed, warmed between palms before it ever touched your scalp.</p><span class="view-link">View details &rarr;</span></div>
+      </div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="root-rebirth-hair-pack" role="button" tabindex="0">
+        <div class="arch-frame" style="--frame-bg:var(--gold); --frame-ink:#16241C;"><div class="texture"></div>
+          <div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="32" cy="40" rx="18" ry="10"/><path d="M32 30V10"/><circle cx="32" cy="8" r="3"/><path d="M24 16c2 3 4 3 8 0M40 16c-2 3-4 3-8 0"/></svg></div>
+          <span class="swatch-name">Root Rebirth</span>
+        </div>
+        <div class="cap"><span class="kicker">Hair Powder Pack</span><h3>Root Rebirth Hair Pack</h3><p>Amla, shikakai, and ashwagandha, mixed fresh with water or curd, the way it's always been made at home.</p><span class="view-link">View details &rarr;</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skin">
+  <div class="wrap">
+    <div class="section-head gsap-reveal">
+      <span class="eyebrow">Shop &mdash; Skin Care</span>
+      <h2>Soaps &amp; an ubtan, for every kind of day.</h2>
+      <p>Plant-based soaps for glow, sun, everyday nourishment, and the weeks before a wedding &mdash; plus the traditional powder pack your face never forgot.</p>
+    </div>
+    <div class="arch-grid cols-5">
+      <div class="arch-card gsap-reveal product-trigger" data-pid="ujaas-glow-soap" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--gold); --frame-ink:#16241C;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="32" cy="32" r="10"/><path d="M32 6v8M32 50v8M58 32h-8M14 32H6M49.9 14.1l-5.6 5.6M19.7 44.3l-5.6 5.6M49.9 49.9l-5.6-5.6M19.7 19.7l-5.6-5.6"/></svg></div><span class="swatch-name">Ujaas Glow</span></div><div class="cap"><span class="kicker">Soap</span><h3>Ujaas Glow</h3><p>Light, brightening, and gentle &mdash; a glow built slowly.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="dhoop-raksha-soap" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--terracotta); --frame-ink:#F6F1E4;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M10 38c8-16 36-16 44 0"/><path d="M18 44h28"/><circle cx="32" cy="14" r="5"/></svg></div><span class="swatch-name">Dhoop Raksha</span></div><div class="cap"><span class="kicker">Soap</span><h3>Dhoop Raksha</h3><p>Sun protection in a bar, for skin that's been out all day.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="poshan-soap" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--green); --frame-ink:#F6F1E4;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M32 10c10 6 18 14 18 24a18 18 0 0 1-36 0c0-10 8-18 18-24Z"/></svg></div><span class="swatch-name">Poshan</span></div><div class="cap"><span class="kicker">Soap</span><h3>Poshan</h3><p>Nourishment, daily &mdash; a gentle soap for skin that needs looking after.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="dulhan-nikhaar-soap" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--plum); --frame-ink:#F6F1E4;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M32 8l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1 5-11Z"/></svg></div><span class="swatch-name">Dulhan Nikhaar</span></div><div class="cap"><span class="kicker">Soap</span><h3>Dulhan Nikhaar</h3><p>A richer bar for the weeks before the big day.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="chehra-nikhaar-ubtan" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--gold); --frame-ink:#16241C;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="32" cy="28" r="15"/><path d="M20 52c3-6 7-9 12-9s9 3 12 9"/></svg></div><span class="swatch-name">Chehra Nikhaar</span></div><div class="cap"><span class="kicker">Face Mask Powder</span><h3>Chehra Nikhaar Ubtan</h3><p>The traditional powder pack, passed down.</p><span class="view-link">View details &rarr;</span></div></div>
+    </div>
+  </div>
+</section>
+
+<svg class="curve into-alt" viewBox="0 0 1200 80" preserveAspectRatio="none"><path d="M0,80 C300,0 900,0 1200,80 L1200,0 L0,0 Z"></path></svg>
+
+<section id="mother" class="alt">
+  <div class="wrap">
+    <div class="section-head gsap-reveal">
+      <span class="eyebrow">Shop &mdash; Mother Care</span>
+      <h2>The category this brand was built for.</h2>
+      <p>What we'd have made for our own mothers, and what they made for us &mdash; postpartum food mixes and wellness blends, ready when you need them.</p>
+    </div>
+    <div class="arch-grid cols-4">
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-ka-doodh-powder" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_doodh.jpg" alt="Maa Ka Doodh Powder lactation mix"></div><div class="cap"><span class="kicker">Lactation Powder</span><h3>Maa Ka Doodh Powder</h3><p>Stirred into warm milk, the way an experienced hand would put it together.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-fit-drink-mix" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_fitdrink.jpg" alt="Maa Fit Drink Mix"></div><div class="cap"><span class="kicker">Weight Management</span><h3>Maa Fit Drink Mix</h3><p>For the months after &mdash; gently formulated to support the body at its own pace.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-santulan-mix" role="button" tabindex="0"><div class="arch-frame" style="--frame-bg:var(--plum); --frame-ink:#F6F1E4;"><div class="texture"></div><div class="motif"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 40a24 24 0 0 1 48 0"/><path d="M32 16v24"/><circle cx="20" cy="42" r="3"/><circle cx="44" cy="42" r="3"/></svg></div><span class="swatch-name">Maa Santulan</span></div><div class="cap"><span class="kicker">Hormonal Health</span><h3>Maa Santulan Mix</h3><p>Santulan means balance &mdash; thoughtfully put together to support it.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-poshan-porridge" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_porridge.jpg" alt="Maa Poshan Porridge mix"></div><div class="cap"><span class="kicker">Porridge Mix</span><h3>Maa Poshan Porridge</h3><p>Spooned into bowls for generations &mdash; daily nourishment that keeps you full.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-shakti-laddu" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_laddu.jpg" alt="Maa Shakti Laddu dry fruit laddus"></div><div class="cap"><span class="kicker">Dry Fruit Laddu</span><h3>Maa Shakti Laddu</h3><p>Shakti means strength &mdash; a small, sweet ritual of care for new mothers.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-ka-panjeeri" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_panjeeri.jpg" alt="Maa Ka Panjeeri postpartum mix"></div><div class="cap"><span class="kicker">Panjeeri Mix</span><h3>Maa Ka Panjeeri</h3><p>The classic postpartum recipe your mother's mother knew by heart.</p><span class="view-link">View details &rarr;</span></div></div>
+      <div class="arch-card gsap-reveal product-trigger" data-pid="maa-ka-gond-halwa" role="button" tabindex="0"><div class="arch-frame"><img src="images/prod_gondhalwa.jpg" alt="Maa Ka Gond Halwa mix"></div><div class="cap"><span class="kicker">Gond Halwa Mix</span><h3>Maa Ka Gond Halwa</h3><p>Warm and rich, traditionally given to new mothers for strength.</p><span class="view-link">View details &rarr;</span></div></div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><h4>Maa Hai Naa</h4><p class="foot-tag">Hair care, skin care, and mother care, made the way she would have made it. Traditional ingredients, thoughtfully made.</p></div>
+      <div><h5>Shop</h5><ul><li><a href="#hair">Hair Care</a></li><li><a href="#skin">Skin Care</a></li><li><a href="#mother">Mother Care</a></li></ul></div>
+      <div><h5>Brand</h5><ul><li><a href="#story">Our Story</a></li><li><a href="#top">Home</a></li></ul></div>
+      <div><h5>Say Hello</h5><ul><li><a href="mailto:hello@maahaina.com">hello@maahaina.com</a></li><li><a href="#top">Instagram</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Maa Hai Naa. All rights reserved.</span>
+      <span>Individual results may vary. Not intended to diagnose or treat any condition.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="pmodal" id="pmodal" role="dialog" aria-modal="true" aria-labelledby="pmodalTitle">
+  <div class="pmodal-backdrop" id="pmodalBackdrop"></div>
+  <div class="pmodal-panel">
+    <button class="pmodal-close" id="pmodalClose" aria-label="Close">&times;</button>
+    <span class="pmodal-kicker" id="pmodalKicker"></span>
+    <h3 id="pmodalTitle"></h3>
+    <p id="pmodalDesc"></p>
+    <dl class="pmodal-row">
+      <dt>Key Ingredients</dt><dd id="pmodalIngredients"></dd>
+      <dt>How to Use</dt><dd id="pmodalUsage"></dd>
+    </dl>
+    <div class="pmodal-price" id="pmodalPrice"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
